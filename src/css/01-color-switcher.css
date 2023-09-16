@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Rubik Distressed', cursive;
+}
+
+a {
+  position: fixed;
+  top: 15px;
+  left: 20px;
+}
+button[data-start] {
+  position: relative;
+  background: #d6f106;
+  color: #fff;
+  border: none;
+  width: 500px;
+  height: 148px;
+  font-size: 72px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 50px;
+}
+button[data-stop] {
+  position: relative;
+  background: #1e0f53;
+  color: #fff;
+  border: none;
+  width: 500px;
+  height: 148px;
+  font-size: 72px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 50px;
+}
